@@ -1,6 +1,7 @@
 package ed.lab;
 
 public class TreeNode <T> {
+    protected int height;
     protected T value;
     protected TreeNode<T> left;
     protected TreeNode<T> right;
